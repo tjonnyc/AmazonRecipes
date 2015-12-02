@@ -9,7 +9,7 @@
             this.name = name;
             this.amount = amount;   //number of units
             this.unit = unit;       //weight or volume unit used
-            printIngredient = function() {
+            this.printIngredient = function() {
                 alert(amount + " " + unit + " of " + name);
             }
         };
@@ -22,7 +22,7 @@
             this.addIngredient = function(ingredient) {
                 this.ingredientList.push(ingredient); //adds an ingredient Object to the ingredients list
             };
-            printRecipe = function() {
+            this.printRecipe = function() {
                 alert(this.preparation);
                 for (var i in ingredientList) {
                     i.printIngredient();
