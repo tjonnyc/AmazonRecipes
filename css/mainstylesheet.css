@@ -1,3 +1,22 @@
 body {
     text-align: center;
 }
+
+#masthead {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        color: #222;
+        margin-bottom: 0;
+     }
+
+     #siteDescription{
+        font-size: 13px;
+        color: #222;
+        text-transform: Uppercase;
+        border-top: 1px solid #222;
+        margin-top: 20px;
+        margin-bottom: -5px;
+        padding: 10px 0 0 0;
+        font-family: Cufon;
+     }
+
