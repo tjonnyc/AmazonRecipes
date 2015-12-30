@@ -1,22 +1,64 @@
+/*----- GENERAL -----*/
+
 body {
     text-align: center;
 }
 
-#masthead {
-        font-family: Georgia, serif;
-        font-size: 20px;
-        color: #222;
-        margin-bottom: 0;
-     }
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 0;
+}
 
-     #siteDescription{
-        font-size: 13px;
-        color: #222;
-        text-transform: Uppercase;
-        border-top: 1px solid #222;
-        margin-top: 20px;
-        margin-bottom: -5px;
-        padding: 10px 0 0 0;
-        font-family: Cufon;
-     }
+#siteDescription{
+    font-size: 13px;
+    color: #222;
+    text-transform: Uppercase;
+    border-top: 1px solid #222;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    padding: 10px 0 0 0;
+    font-family: Cufon;
+}
+
+#designline {
+    margin-top: 50px;
+}
+
+h5 {
+    position: relative;
+    top: -35px;
+    margin-bottom: 0px;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    color: #bca474;
+    text-decoration: none;
+    text-transform: Uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #bca474;
+    background: #fff;
+}
+
+h5 a:link, .line a:visited{
+    font-family: Georgia, serif;
+    font-size: 10px;
+    color: #bca474;
+    text-decoration: none;
+    text-transform: Uppercase;
+    font-weight: bold;
+}
+
+ h5 abbr{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 8px;
+    background: #fff;
+    top: 10px;
+ }
+
+ h5.postDate a{
+    color: #bca474;
+ }
 
