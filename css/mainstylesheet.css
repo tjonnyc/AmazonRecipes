@@ -1,64 +1,113 @@
 /*----- GENERAL -----*/
 
 body {
+    width: 75%;
     text-align: center;
+    margin: auto;
+    font-size: 100%;
 }
+
+/*----- HEADER -----*/
 
 header h1 {
-    font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 2.5em;
     color: #222;
-    margin-bottom: 0;
+    font-family: Georgia, serif;
+    text-transform: Uppercase;
+
+    margin: 0.4em 0 0.1em 0;
+    padding: 0 0 0 0;
 }
 
-#siteDescription{
-    font-size: 13px;
+header p{
+    font-size: 0.8em;
     color: #222;
-    text-transform: Uppercase;
-    border-top: 1px solid #222;
-    margin-top: 20px;
-    margin-bottom: -5px;
-    padding: 10px 0 0 0;
     font-family: Cufon;
-}
-
-#designline {
-    margin-top: 50px;
-}
-
-h5 {
-    position: relative;
-    top: -35px;
-    margin-bottom: 0px;
-    font-family: Georgia, serif;
-    font-size: 10px;
-    color: #bca474;
-    text-decoration: none;
     text-transform: Uppercase;
-    font-weight: bold;
+
+    margin: 0.2em 0 0.2em 0;
+    padding: 0.4em 0 0.4em 0;
+
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+/*----- NAV ---*/
+
+nav {
+    float: left;
+    text-align: center;
+    border-right: 1px solid #222;
+    width: 15%;
+    margin: auto;
+    padding: 0 0 0 0;
+}
+
+/*----- ARTICLE CONTAINER -----*/
+
+#allArticles    {
+    float: right;
+    text-align: center;
+    width: 84%;
+    margin: auto;
+    padding: 0 0 0 0;
+    border-right: 1px solid #222;
+    border-left: 1px solid #222;
+}
+
+/*----- ARTICLE -----*/
+
+article {
+    margin: 0 5% 4em 5%;
+    padding: 0 0 0 0;
+}
+
+.postDateBorder {
+    color: #bca474;
+    margin: 0 0 0 0;
+    padding: 0.2em 40% 0.2em 40%;
+
     border-bottom: 1px solid #bca474;
-    background: #fff;
-}
 
-h5 a:link, .line a:visited{
-    font-family: Georgia, serif;
-    font-size: 10px;
-    color: #bca474;
-    text-decoration: none;
-    text-transform: Uppercase;
-    font-weight: bold;
-}
-
- h5 abbr{
     display: inline-block;
-    position: relative;
-    margin: 0 auto;
-    padding: 0 8px;
-    background: #fff;
-    top: 10px;
- }
+}
 
- h5.postDate a{
+.postDateText {
+    font-size: 0.6em;
     color: #bca474;
- }
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-transform: Uppercase;
+
+    background: #fff;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border-bottom: 0;
+
+    position: relative;
+    top: 1em;
+
+    display: inline-block;
+}
+
+.recipeTitle    {
+    text-align: left;
+}
+
+.recipeImage    {
+    width: %
+}
+
+.recipeDescription  {
+    text-align: left;
+}
+
+/*----- FOOTER -----*/
+
+footer  {
+    border-top: 1px solid #222;
+    clear: both;
+}
 
