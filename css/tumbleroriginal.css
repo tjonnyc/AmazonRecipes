@@ -10,7 +10,7 @@
         font: 12px/20px Georgia, "Times New Roman", Times, serif;
         padding-top: 25px;
         text-align: center;
-        --width:500px;
+        width: 75%;
         margin: 0 auto;
      }
 
