@@ -11,7 +11,7 @@ body {
 
 header h1 {
     font-size: 2.5em;
-    color: #222;
+    color: #1a53ff;
     font-family: Georgia, serif;
     text-transform: Uppercase;
 
@@ -93,15 +93,68 @@ article {
 }
 
 .recipeTitle    {
-    text-align: left;
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+    text-transform: Uppercase;
+
+    text-align: center;
+
+    margin: 0.5em 0 0.4em 0;
+    padding: 0 0 0 0;
 }
 
 .recipeImage    {
-    width: %
+    width: 80%
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    float: left;
+    display: inline;
 }
 
 .recipeDescription  {
+    float: right;
+    display: inline;
+    width: 18%;
     text-align: left;
+    font-style: italic;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.ingredients    {
+    clear: both;
+    float: left;
+    text-align: left;
+
+    width: 49%;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border-right: 1px solid #222;
+}
+
+.instructions    {
+    float: right;
+    text-align: left;
+
+    width: 49%;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.ingredientPic  {
+    width: 20%;
+    display: inline;
+    margin: 0.1em 0 0.1em 0;
+    padding: 0.2em 0 0.2em 0;
+}
+
+.ingredientDescription  {
+    display: inline;
+    vertical-align: middle;
 }
 
 /*----- FOOTER -----*/
