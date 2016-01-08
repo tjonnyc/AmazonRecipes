@@ -7,6 +7,7 @@ body {
     font-size: 100%;
 }
 
+
 /*----- HEADER -----*/
 
 header h1 {
@@ -104,7 +105,7 @@ article {
 }
 
 .recipeImage    {
-    width: 80%
+    width: 80%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     float: left;
@@ -122,7 +123,7 @@ article {
     padding: 0 0 0 0;
 }
 
-.ingredients    {
+.allIngredients    {
     clear: both;
     float: left;
     text-align: left;
@@ -130,12 +131,29 @@ article {
     width: 49%;
 
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 0 0 1em 0;
 
     border-right: 1px solid #222;
 }
 
-.instructions    {
+.ingredient, .instruction{
+    margin: 0 0 0 0;
+    padding: 0.4em 0 0.4em 0;
+}
+
+
+.ingredientPic  {
+    width: 20%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.ingredientDescription, .instructionDescription  {
+    display: inline;
+    vertical-align: middle;
+}
+
+.allInstructions    {
     float: right;
     text-align: left;
 
@@ -145,14 +163,8 @@ article {
     padding: 0 0 0 0;
 }
 
-.ingredientPic  {
-    width: 20%;
-    display: inline;
-    margin: 0.1em 0 0.1em 0;
-    padding: 0.2em 0 0.2em 0;
-}
-
-.ingredientDescription  {
+.instructionPic  {
+    width: 12%;
     display: inline;
     vertical-align: middle;
 }
@@ -162,5 +174,9 @@ article {
 footer  {
     border-top: 1px solid #222;
     clear: both;
+}
+
+.footer {
+    text-align: right;
 }
 
