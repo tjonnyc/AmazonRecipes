@@ -1,0 +1,187 @@
+/*----- GENERAL -----*/
+
+body {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+}
+
+
+/*----- HEADER -----*/
+
+header h1 {
+    font-size: 2.5em;
+    color: #1a53ff;
+    font-family: Georgia, serif;
+    text-transform: Uppercase;
+
+    margin: 0.4em 0 0.1em 0;
+    padding: 0 0 0 0;
+}
+
+header p{
+    font-size: 0.8em;
+    color: #222;
+    font-family: Cufon;
+    text-transform: Uppercase;
+
+    margin: 0.2em 0 0.2em 0;
+    padding: 0.4em 0 0.4em 0;
+
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+/*----- NAV ---*/
+
+nav {
+    float: left;
+    text-align: center;
+    border-right: 1px solid #222;
+    width: 15%;
+    margin: auto;
+    padding: 0 0 0 0;
+}
+
+/*----- ARTICLE CONTAINER -----*/
+
+#allArticles    {
+    float: right;
+    text-align: center;
+    width: 84%;
+    margin: auto;
+    padding: 0 0 0 0;
+    border-right: 1px solid #222;
+    border-left: 1px solid #222;
+}
+
+/*----- ARTICLE -----*/
+
+article {
+    margin: 0 5% 4em 5%;
+    padding: 0 0 0 0;
+}
+
+.postDateBorder {
+    color: #bca474;
+    margin: 0 0 0 0;
+    padding: 0.2em 40% 0.2em 40%;
+
+    border-bottom: 1px solid #bca474;
+
+    display: inline-block;
+}
+
+.postDateText {
+    font-size: 0.6em;
+    color: #bca474;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-transform: Uppercase;
+
+    background: #fff;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border-bottom: 0;
+
+    position: relative;
+    top: 1em;
+
+    display: inline-block;
+}
+
+.recipeTitle    {
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+    text-transform: Uppercase;
+
+    text-align: center;
+
+    margin: 0.5em 0 0.4em 0;
+    padding: 0 0 0 0;
+}
+
+.recipeImage    {
+    width: 80%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    float: left;
+    display: inline;
+}
+
+.recipeDescription  {
+    float: right;
+    display: inline;
+    width: 18%;
+    text-align: left;
+    font-style: italic;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.allIngredients    {
+    clear: both;
+    float: left;
+    text-align: left;
+
+    width: 49%;
+
+    margin: 0 0 0 0;
+    padding: 0 0 1em 0;
+
+    border-right: 1px solid #222;
+}
+
+.ingredient, .instruction{
+    margin: 0 0 0 0;
+    padding: 0.4em 0 0.4em 0;
+}
+
+
+.ingredientPic  {
+    width: 20%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.ingredientDescription, .instructionDescription  {
+    display: inline;
+    vertical-align: middle;
+}
+
+.allInstructions    {
+    float: right;
+    text-align: left;
+
+    width: 49%;
+
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.instructionPic  {
+    width: 12%;
+    display: inline;
+    vertical-align: middle;
+}
+
+/*----- FOOTER -----*/
+
+footer  {
+    border-top: 1px solid #222;
+    clear: both;
+}
+
+.footer {
+    text-align: right;
+}
+
+/*----- ADMIN CONSOLE -----*/
+
+#addrecipes {
+    text-align: left;
+}
