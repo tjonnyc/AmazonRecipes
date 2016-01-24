@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>Amazon Recipes</title>
+    <link rel="shortcut icon" href="./images/searedscallops.ico" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/mainstylesheet.css" />
+
+    <script src="mainjavascript.js"></script>
+</head>
+
+<body odnload="initialize()">
+    <header>
+        <h1>Amazon Recipes</h1>
+        <p>All the ingredients delivered to your door by Amazon.com</p>
+    </header>
+
+    <nav>
+        <h3>Nav Area</h3>
+        <button onclick="pullRecipesFromDatabase()">Click me</button>
+        <p id="results">test2</p>
+    </nav>
+
+    <section id="allArticles">
+        <article>
+            <section class="postDateBorder">
+                <h5 class="postDateText">16th Jul 2015 | 4 notes</h5>
+            </section>
+
+            <section class="recipeOverview">
+                <h4 class="recipeTitle">Pan seared steak with saffron butter sauce</h4>
+                <img class="recipeImage" src="./images/Marinated_Flatiron_Steak.jpg" data-orig-height="279" data-orig-width="500">
+                <p class="recipeDescription">Saffron rice and sauteed mushrooms over scallops in a creamy sauce - a fantastic addition to any meal</p>
+            </section>
+
+            <section class="allIngredients">
+                <h3>Ingredients:</h3>
+                <section class="ingredient">
+                    <img class="ingredientPic" src="./images/1-cup.png">
+                    <p class="ingredientDescription">1 Cup of Steak</p>
+                </section>
+                <section class="ingredient">
+                    <img class="ingredientPic" src="./images/1-2-cup.png">
+                    <p class="ingredientDescription">1/2 Cup of Butter</p>
+                </section>
+                <section class="ingredient">
+                    <img class="ingredientPic" src="./images/1-cup.png">
+                    <p class="ingredientDescription">1 Cup of more Steak</p>
+                </section>
+            </section>
+
+            <section class="allInstructions">
+                <h3>Instructions:</h3>
+                <section class="instruction">
+                    <img class="instructionPic" src="./images/Number1.svg">
+                    <p class="instructionDescription">1 Cup of Steak</p>
+                </section>
+                <section class="instruction">
+                    <img class="instructionPic" src="./images/number2.png">
+                    <p class="instructionDescription">1 Cup of Steak</p>
+                </section>
+                <section class="instruction">
+                    <img class="instructionPic" src="./images/number3.png">
+                    <p class="instructionDescription">1 Cup of Steak</p>
+                </section>
+            </section>
+
+        </article>
+    </section>
+
+    <footer>
+        <h5 class="footer">&copy; Dovid Bobson LLC</h5>
+    </footer>
+
+</body>
