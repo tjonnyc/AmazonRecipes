@@ -183,5 +183,34 @@ footer  {
 /*----- ADMIN CONSOLE -----*/
 
 #addrecipes {
+    float: right;
     text-align: left;
+    width: 81%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 1em;
+    border-right: 1px solid #222;
+    border-left: 1px solid #222;
+}
+
+.instructionsTable  {
+    margin: 0.8em 0 0.8em 0;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;    
+}
+
+.addinstructionTextBox  {
+
+
+}
+
+#submitNewRecipe
+{
+    float: right;
+    width: 15%;
+    height: 4em;
+    margin: 2em 2em 2em 2em;
+}
+
+tr, td  {
+    padding: 0.2em 0.2em 0.2em 0.2em;
 }

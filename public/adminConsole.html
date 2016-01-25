@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="./images/searedscallops.ico" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/mainstylesheet.css" />
-    <script src="adminjavascript.js"></script>
+    <script src="mainjavascript.js"></script>
 </head>
 
 <body>
@@ -17,24 +17,62 @@
 
     <nav>
         <h3>Nav Area</h3>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	</nav>
 
     <section id="addrecipes">
-		<h3>Enter the recipe information here</h3>
-        
-        <h5>Recipe Title: <input type="text"></input></h5>
-        <h5>Recipe Description: <input type="text"></input></h5>
-        <h5>Image Name: <input type="text"></input></h5>
-        
-        <h4>Ingredients</h4>
+		
+        <button id="submitNewRecipe">Submit</button>
 
+        <h3>Enter the recipe information here</h3>
         
+        <table>
+            <tr>
+                <td>Recipe Title: </td>
+                <td><input type="text" size="47"></input></td>
+            </tr>
+            <tr>
+                <td>Recipe Description: </td>
+                <td><textarea rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>Image Name: </td>
+                <td><input type="text" size="47"></input></td>
+            </tr>
+        </table>
 
-        <h5>Image Name:</h5>
-        <input type="text"></input>
-        <br>
-
+        <section id="ingredientsSection">
+            <h4>Ingredients</h4>
+            <table class="instructionsTable">
+                <tr>
+                    <td>Ingredient Amount:</td>
+                    <td>
+                        <select>
+                            <option>1 Cup</option>
+                            <option>2 Cup</option>
+                            <option>3 Cup</option>
+                            <option>4 Cup</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ingredient Name:</td>
+                    <td><input type="text"></input></td>
+                </tr>
+            </table>
+            <button id="ingredientsButton" onclick="addIngredients()">+</button>
+        </section>
+        
+        <section id="instructionsSection">
+            <h4>Instructions</h4>
+            <table class="instructionsTable">
+                <tr>
+                    <td>Instruction:</td>
+                    <td><textarea rows="2" cols="50"></textarea></td>
+                </tr>
+            </table>
+            <button id="instructionsButton" onclick="addInstructions()">+</button>
+        </section>
+        
     </section>
 
     <footer>

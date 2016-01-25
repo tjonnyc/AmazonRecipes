@@ -32,6 +32,60 @@ function initialize() {
     searedScallops.printRecipe(); //update
 };
 
+function addIngredients()    {
+    
+    var table = document.createElement("table");
+    table.className += "instructionsTable";
+
+    var row = table.insertRow(0);
+
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+
+    cell1.innerHTML = "Ingredient Amount:";
+    var input = document.createElement("select");
+    var option = document.createElement("option");
+    option.text = "1/2 Cup";
+    input.add(option);
+    option = document.createElement("option");
+    option.text = "1 Cup";
+    input.add(option);
+    cell2.appendChild(input);
+
+    row = table.insertRow(1);
+    
+    cell1 = row.insertCell(0);
+    cell2 = row.insertCell(1);
+
+    cell1.innerHTML = "Ingredient Name:";
+    input = document.createElement("input");
+    input.type = "text";
+    cell2.appendChild(input);
+
+    document.getElementById("ingredientsSection").insertBefore(table, document.getElementById("ingredientsButton"));
+    
+};
+
+function addInstructions()    {
+    
+    var table = document.createElement("table");
+    table.className += "instructionsTable";
+
+    var row = table.insertRow(0);
+
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+
+    cell1.innerHTML = "Instruction:";
+    var input = document.createElement("textarea");
+    input.rows = 2;
+    input.cols = 50;
+    cell2.appendChild(input);
+
+    document.getElementById("instructionsSection").insertBefore(table, document.getElementById("instructionsButton"));
+    
+};
+
 function pullRecipesFromDatabase() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
